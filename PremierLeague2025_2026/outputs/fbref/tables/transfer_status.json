@@ -1,0 +1,10 @@
+{
+  "source": "FootballTransfers direct + FBref",
+  "dataset_sha256": "b595e3f68612310d26deed8ac5fb173f645af8542c9966c542681b3601213eda",
+  "raw_transfers": 365,
+  "included": 312,
+  "matched_by_unique_name_and_club": 113,
+  "unknown_fees": 0,
+  "raw_file_sha256": "6821360e4767fd6bcb4db14426c977969b003ac1e2bfd93bb79285b3a965771e",
+  "note": "Ghép chính xác tên chuẩn hóa duy nhất và kiểm tra đội; không ghép mờ, không dùng giá FPL."
+}

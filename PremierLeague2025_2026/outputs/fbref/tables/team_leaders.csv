@@ -1,0 +1,29 @@
+﻿Attribute,Aggregation,Squad,Value
+MP,sum_of_qualified_player_stints,Fulham,591.0
+Starts,sum_of_qualified_player_stints,AFC Bournemouth,418.0
+Starts,sum_of_qualified_player_stints,Brighton & Hove Albion,418.0
+Starts,sum_of_qualified_player_stints,Burnley,418.0
+Starts,sum_of_qualified_player_stints,Fulham,418.0
+Starts,sum_of_qualified_player_stints,Leeds United,418.0
+Starts,sum_of_qualified_player_stints,Liverpool,418.0
+Starts,sum_of_qualified_player_stints,Manchester City,418.0
+Starts,sum_of_qualified_player_stints,Manchester United,418.0
+Starts,sum_of_qualified_player_stints,Nottingham Forest,418.0
+Starts,sum_of_qualified_player_stints,Tottenham Hotspur,418.0
+Starts,sum_of_qualified_player_stints,West Ham United,418.0
+Starts,sum_of_qualified_player_stints,Wolverhampton Wanderers,418.0
+Min,sum_of_qualified_player_stints,Liverpool,37595.0
+Gls,sum_of_qualified_player_stints,Manchester City,74.0
+Ast,sum_of_qualified_player_stints,Manchester City,57.0
+G+A,sum_of_qualified_player_stints,Manchester City,131.0
+G-PK,sum_of_qualified_player_stints,Manchester City,71.0
+PK,sum_of_qualified_player_stints,Brentford,8.0
+PK,sum_of_qualified_player_stints,Crystal Palace,8.0
+PKatt,sum_of_qualified_player_stints,Brentford,10.0
+CrdY,sum_of_qualified_player_stints,Tottenham Hotspur,101.0
+CrdR,sum_of_qualified_player_stints,Chelsea,8.0
+Saves,sum_of_qualified_player_stints,Burnley,137.0
+CleanSheets,sum_of_qualified_player_stints,Arsenal,19.0
+Sh,sum_of_qualified_player_stints,Manchester City,595.0
+SoT,sum_of_qualified_player_stints,Manchester United,214.0
+Age,mean_of_qualified_player_stints,Aston Villa,27.28

@@ -1,0 +1,17 @@
+{
+  "status": "retrospective_only",
+  "dataset_sha256": "b595e3f68612310d26deed8ac5fb173f645af8542c9966c542681b3601213eda",
+  "train_rows": 84,
+  "test_rows": 29,
+  "player_overlap": 0,
+  "selected_model": "RandomForestLog",
+  "features": [
+    "Age",
+    "Min",
+    "Gls",
+    "Ast",
+    "MP"
+  ],
+  "split": "GroupShuffleSplit theo cầu thủ; không phải chia theo thời gian",
+  "warning": "Đặc trưng cả mùa có thể xảy ra sau giao dịch. Mô hình chỉ khảo sát liên hệ hồi cứu, không được đánh giá như dự báo phí trước chuyển nhượng. Muốn dự báo cần cào thêm các mùa trước và khóa mốc thời gian."
+}

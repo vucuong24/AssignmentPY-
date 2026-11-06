@@ -1,0 +1,18 @@
+{
+  "source": "FBref",
+  "dataset_sha256": "b595e3f68612310d26deed8ac5fb173f645af8542c9966c542681b3601213eda",
+  "k": 5,
+  "features": [
+    "Age",
+    "Min",
+    "Gls_per90",
+    "Ast_per90"
+  ],
+  "silhouette": 0.28495994749225567,
+  "pca_explained_variance": [
+    0.2980485764728042,
+    0.2744606167190893
+  ],
+  "missing_features": [],
+  "note": "Đặc trưng chỉ lấy từ FBref; cột thiếu toàn bộ/không biến động được loại, không thay bằng chỉ số FPL."
+}

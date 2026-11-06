@@ -1,0 +1,24 @@
+{
+  "url": "https://www.footballtransfers.com/en/transfers/confirmed/2025-2026/uk-premier-league",
+  "endpoint": "https://www.footballtransfers.com/en/transfers/actions/confirmed/overview",
+  "filters": {
+    "orderBy": "date_transfer",
+    "orderByDescending": "1",
+    "page": "15",
+    "pages": "0",
+    "pageItems": "25",
+    "transferFeeFrom": "",
+    "transferFeeTo": "",
+    "countryId": "all",
+    "season": "5843",
+    "tournamentId": "31",
+    "clubFromId": "all",
+    "clubToId": "all",
+    "transferSort": "most-recent"
+  },
+  "retrieved_at": "2026-11-05T14:24:28+07:00",
+  "rows": 365,
+  "pages": 15,
+  "sha256": "6821360e4767fd6bcb4db14426c977969b003ac1e2bfd93bb79285b3a965771e",
+  "season_id": "5843"
+}

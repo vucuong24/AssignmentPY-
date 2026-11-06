@@ -1,0 +1,175 @@
+﻿Attribute,Direction,Rank,PlayerID,Name,Squad,Value
+MP,bottom,1,ec75ee25,Jenson Seelt,Sunderland,2.0
+MP,bottom,2,defcfd32,Max Alleyne,Manchester City,2.0
+MP,bottom,3,288e1e13,Nayef Aguerd,West Ham United,2.0
+MP,top,1,5d0e0a1f,Adrien Truffert,AFC Bournemouth,38.0
+MP,top,2,cf134113,Bart Verbruggen,Brighton & Hove Albion,38.0
+MP,top,3,3eb22ec9,Bernardo Silva,Manchester City,38.0
+Starts,bottom,1,bf4c41f9,Arnaud Kalimuendo,Nottingham Forest,0.0
+Starts,bottom,2,733f1a7d,Ben Gannon-Doak,AFC Bournemouth,0.0
+Starts,bottom,3,af0d79a9,Borna Sosa,Crystal Palace,0.0
+Starts,top,1,5d0e0a1f,Adrien Truffert,AFC Bournemouth,38.0
+Starts,top,2,cf134113,Bart Verbruggen,Brighton & Hove Albion,38.0
+Starts,top,3,2628fd2b,Bernd Leno,Fulham,38.0
+Min,bottom,1,2944f86f,Frank Onyeka,Brentford,92.0
+Min,bottom,2,803ae100,Harrison Reed,Fulham,94.0
+Min,bottom,3,d8a7e52c,Harry Howell,Brighton & Hove Albion,94.0
+Min,top,1,cf134113,Bart Verbruggen,Brighton & Hove Albion,3420.0
+Min,top,2,2628fd2b,Bernd Leno,Fulham,3420.0
+Min,top,3,4806ec67,Jordan Pickford,Everton,3420.0
+Gls,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+Gls,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+Gls,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+Gls,top,1,1f44ac21,Erling Haaland,Manchester City,27.0
+Gls,top,2,dc45ac24,Igor Thiago,Brentford,22.0
+Gls,top,3,efd2ec23,Antoine Semenyo,AFC Bournemouth / Manchester City,17.0
+Ast,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+Ast,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+Ast,bottom,3,d17ce930,Abdukodir Khusanov,Manchester City,0.0
+Ast,top,1,507c7bdf,Bruno Fernandes,Manchester United,21.0
+Ast,top,2,b34c63a5,Rayan Cherki,Manchester City,12.0
+Ast,top,3,79c84d1c,Jarrod Bowen,West Ham United,11.0
+G+A,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+G+A,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+G+A,bottom,3,d17ce930,Abdukodir Khusanov,Manchester City,0.0
+G+A,top,1,1f44ac21,Erling Haaland,Manchester City,35.0
+G+A,top,2,507c7bdf,Bruno Fernandes,Manchester United,30.0
+G+A,top,3,dc45ac24,Igor Thiago,Brentford,23.0
+G-PK,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+G-PK,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+G-PK,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+G-PK,top,1,1f44ac21,Erling Haaland,Manchester City,24.0
+G-PK,top,2,efd2ec23,Antoine Semenyo,AFC Bournemouth / Manchester City,16.0
+G-PK,top,3,aed3a70f,Ollie Watkins,Aston Villa,16.0
+PK,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+PK,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+PK,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+PK,top,1,dc45ac24,Igor Thiago,Brentford,8.0
+PK,top,2,dc7f8a28,Cole Palmer,Chelsea,5.0
+PK,top,3,507c7bdf,Bruno Fernandes,Manchester United,4.0
+PKatt,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+PKatt,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+PKatt,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+PKatt,top,1,dc45ac24,Igor Thiago,Brentford,9.0
+PKatt,top,2,507c7bdf,Bruno Fernandes,Manchester United,6.0
+PKatt,top,3,dc7f8a28,Cole Palmer,Chelsea,6.0
+CrdY,bottom,1,8e92be30,Alexander Isak,Liverpool,0.0
+CrdY,bottom,2,2f965a72,Alphonse Areola,West Ham United,0.0
+CrdY,bottom,3,072e68ed,Altay Bayındır,Manchester United,0.0
+CrdY,top,1,ec604e2c,André,Wolverhampton Wanderers,12.0
+CrdY,top,2,4e015693,James Garner,Everton,12.0
+CrdY,top,3,1e159d70,Yerson Mosquera,Wolverhampton Wanderers,12.0
+CrdR,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+CrdR,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+CrdR,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+CrdR,top,1,a3d94a58,Cristian Romero,Tottenham Hotspur,2.0
+CrdR,top,2,132a82f1,Wesley Fofana,Chelsea,2.0
+CrdR,top,3,4b542852,Adam Wharton,Crystal Palace,1.0
+Saves,bottom,1,33a235af,John,Nottingham Forest,6.0
+Saves,bottom,2,68db6358,Daniel Bentley,Wolverhampton Wanderers,7.0
+Saves,bottom,3,0107757e,Filip Jørgensen,Chelsea,8.0
+Saves,top,1,3a949a25,Martin Dúbravka,Burnley,127.0
+Saves,top,2,0cf321c8,Đorđe Petrović,AFC Bournemouth,109.0
+Saves,top,3,349fa918,Robin Roefs,Sunderland,108.0
+CleanSheets,bottom,1,2f965a72,Alphonse Areola,West Ham United,0.0
+CleanSheets,bottom,2,072e68ed,Altay Bayındır,Manchester United,0.0
+CleanSheets,bottom,3,68db6358,Daniel Bentley,Wolverhampton Wanderers,0.0
+CleanSheets,top,1,98ea5115,David Raya,Arsenal,19.0
+CleanSheets,top,2,08f5afaa,Gianluigi Donnarumma,Manchester City,15.0
+CleanSheets,top,3,e5a76dfe,Dean Henderson,Crystal Palace,11.0
+Sh,bottom,1,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+Sh,bottom,2,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+Sh,bottom,3,20b104bc,Adam Smith,AFC Bournemouth,0.0
+Sh,top,1,1f44ac21,Erling Haaland,Manchester City,126.0
+Sh,top,2,dc62b55d,Matheus Cunha,Manchester United,90.0
+Sh,top,3,1971591f,Cody Gakpo,Liverpool,87.0
+SoT,bottom,1,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+SoT,bottom,2,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+SoT,bottom,3,20b104bc,Adam Smith,AFC Bournemouth,0.0
+SoT,top,1,1f44ac21,Erling Haaland,Manchester City,59.0
+SoT,top,2,dc45ac24,Igor Thiago,Brentford,43.0
+SoT,top,3,efd2ec23,Antoine Semenyo,AFC Bournemouth / Manchester City,41.0
+Age,bottom,1,9008bb70,Max Dowman,Arsenal,15.0
+Age,bottom,2,022eca88,Rio Ngumoha,Liverpool,16.0
+Age,bottom,3,d8a7e52c,Harry Howell,Brighton & Hove Albion,17.0
+Age,top,1,2f90f6b8,James Milner,Brighton & Hove Albion,39.0
+Age,top,2,3a949a25,Martin Dúbravka,Burnley,36.0
+Age,top,3,72c812f3,Idrissa Gueye,Everton,35.0
+90s,bottom,1,2944f86f,Frank Onyeka,Brentford,1.022222222222222
+90s,bottom,2,803ae100,Harrison Reed,Fulham,1.0444444444444445
+90s,bottom,3,d8a7e52c,Harry Howell,Brighton & Hove Albion,1.0444444444444445
+90s,top,1,cf134113,Bart Verbruggen,Brighton & Hove Albion,38.0
+90s,top,2,2628fd2b,Bernd Leno,Fulham,38.0
+90s,top,3,4806ec67,Jordan Pickford,Everton,38.0
+Gls_per90,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+Gls_per90,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+Gls_per90,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+Gls_per90,top,1,803ae100,Harrison Reed,Fulham,0.9574468085106383
+Gls_per90,top,2,966e28d0,Fabio Carvalho,Brentford,0.8823529411764706
+Gls_per90,top,3,1f44ac21,Erling Haaland,Manchester City,0.8228919742634608
+Ast_per90,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+Ast_per90,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+Ast_per90,bottom,3,d17ce930,Abdukodir Khusanov,Manchester City,0.0
+Ast_per90,top,1,2944f86f,Frank Onyeka,Brentford,0.9782608695652174
+Ast_per90,top,2,733f1a7d,Ben Gannon-Doak,AFC Bournemouth,0.7964601769911505
+Ast_per90,top,3,c5bdb6e3,Reiss Nelson,Brentford,0.7142857142857143
+G+A_per90,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+G+A_per90,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+G+A_per90,bottom,3,d17ce930,Abdukodir Khusanov,Manchester City,0.0
+G+A_per90,top,1,a497130f,Stefanos Tzimas,Brighton & Hove Albion,1.2949640287769784
+G+A_per90,top,2,1f44ac21,Erling Haaland,Manchester City,1.0667118184896716
+G+A_per90,top,3,2944f86f,Frank Onyeka,Brentford,0.9782608695652174
+G-PK_per90,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+G-PK_per90,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+G-PK_per90,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+G-PK_per90,top,1,803ae100,Harrison Reed,Fulham,0.9574468085106383
+G-PK_per90,top,2,966e28d0,Fabio Carvalho,Brentford,0.8823529411764706
+G-PK_per90,top,3,7b355808,William Osula,Newcastle United,0.7692307692307693
+PK_per90,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+PK_per90,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+PK_per90,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+PK_per90,top,1,fb495bb8,Matt O'Riley,Brighton & Hove Albion,0.4411764705882353
+PK_per90,top,2,dc7f8a28,Cole Palmer,Chelsea,0.2301790281329923
+PK_per90,top,3,dc45ac24,Igor Thiago,Brentford,0.2193784277879341
+PKatt_per90,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+PKatt_per90,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+PKatt_per90,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+PKatt_per90,top,1,fb495bb8,Matt O'Riley,Brighton & Hove Albion,0.4411764705882353
+PKatt_per90,top,2,dc7f8a28,Cole Palmer,Chelsea,0.2762148337595907
+PKatt_per90,top,3,0cc5f4a5,Lukas Nmecha,Leeds United,0.2493074792243767
+CrdY_per90,bottom,1,8e92be30,Alexander Isak,Liverpool,0.0
+CrdY_per90,bottom,2,2f965a72,Alphonse Areola,West Ham United,0.0
+CrdY_per90,bottom,3,072e68ed,Altay Bayındır,Manchester United,0.0
+CrdY_per90,top,1,22ae86f9,Diego Coppola,Brighton & Hove Albion,0.9278350515463918
+CrdY_per90,top,2,af0d79a9,Borna Sosa,Crystal Palace,0.8910891089108911
+CrdY_per90,top,3,b0f7e36c,Federico Chiesa,Liverpool,0.7964601769911505
+CrdR_per90,bottom,1,1780bb4a,Aaron Hickey,Brentford,0.0
+CrdR_per90,bottom,2,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+CrdR_per90,bottom,3,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+CrdR_per90,top,1,8092d497,Luke O'Nien,Sunderland,0.1581722319859402
+CrdR_per90,top,2,132a82f1,Wesley Fofana,Chelsea,0.1045296167247386
+CrdR_per90,top,3,2afc7272,Lewis Cook,AFC Bournemouth,0.102974828375286
+Saves_per90,bottom,1,33a235af,John,Nottingham Forest,1.2356979405034323
+Saves_per90,bottom,2,b38ac6a4,Antonín Kinský,Tottenham Hotspur,1.4285714285714286
+Saves_per90,bottom,3,98ea5115,David Raya,Arsenal,1.5945945945945943
+Saves_per90,top,1,19e50035,Freddie Woodman,Liverpool,3.8028169014084505
+Saves_per90,top,2,2f965a72,Alphonse Areola,West Ham United,3.8
+Saves_per90,top,3,3a949a25,Martin Dúbravka,Burnley,3.628571428571429
+CleanSheets_per90,bottom,1,2f965a72,Alphonse Areola,West Ham United,0.0
+CleanSheets_per90,bottom,2,072e68ed,Altay Bayındır,Manchester United,0.0
+CleanSheets_per90,bottom,3,68db6358,Daniel Bentley,Wolverhampton Wanderers,0.0
+CleanSheets_per90,top,1,98ea5115,David Raya,Arsenal,0.5135135135135135
+CleanSheets_per90,top,2,08f5afaa,Gianluigi Donnarumma,Manchester City,0.4411764705882353
+CleanSheets_per90,top,3,c924b17d,Mads Hermansen,West Ham United,0.3888888888888889
+Sh_per90,bottom,1,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+Sh_per90,bottom,2,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+Sh_per90,bottom,3,20b104bc,Adam Smith,AFC Bournemouth,0.0
+Sh_per90,top,1,f8eca1b6,Enes Ünal,AFC Bournemouth,5.818965517241379
+Sh_per90,top,2,816010c4,Charalampos Kostoulas,Brighton & Hove Albion,5.121951219512195
+Sh_per90,top,3,1f0072a6,Joël Piroe,Leeds United,4.883720930232558
+SoT_per90,bottom,1,466fb2c5,Aaron Ramsdale,Newcastle United,0.0
+SoT_per90,bottom,2,9e525177,Aaron Wan-Bissaka,West Ham United,0.0
+SoT_per90,bottom,3,20b104bc,Adam Smith,AFC Bournemouth,0.0
+SoT_per90,top,1,b66315ae,Gabriel Jesus,Arsenal,2.517482517482517
+SoT_per90,top,2,816010c4,Charalampos Kostoulas,Brighton & Hove Albion,1.951219512195122
+SoT_per90,top,3,3260690c,Benjamin Šeško,Manchester United,1.862446743761412

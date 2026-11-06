@@ -1,0 +1,15 @@
+{
+  "source": "FBref",
+  "dataset_sha256": "b595e3f68612310d26deed8ac5fb173f645af8542c9966c542681b3601213eda",
+  "players": [
+    "Erling Haaland",
+    "Igor Thiago"
+  ],
+  "attributes": [
+    "Gls_per90",
+    "Ast_per90",
+    "Min",
+    "MP"
+  ],
+  "reference_count": 46
+}
