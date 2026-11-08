@@ -1,0 +1,6 @@
+﻿Mã bảng FBref,Tên bảng,Số đội có dữ liệu,Số dòng trước lọc,Chỉ số tiêu biểu
+standard,Thống kê cầu thủ,20,693,Tuổi / Vị trí / Số trận / Số phút / Bàn thắng / Kiến tạo
+keeper,Thủ môn,20,40,Tuổi / Vị trí / Bàn thua / Cứu thua / Tỷ lệ cứu thua / Trận sạch lưới
+shooting,Dứt điểm,20,551,Tuổi / Vị trí / Bàn thắng / Số cú sút / Sút trúng đích / Tỷ lệ sút trúng đích
+playing_time,Thời gian thi đấu,20,693,Tuổi / Vị trí / Số trận / Số phút / Phút mỗi trận / Số trận đá chính
+misc,Thống kê khác,20,551,Tuổi / Vị trí / Thẻ vàng / Thẻ đỏ / Phạm lỗi / Việt vị

@@ -2,63 +2,91 @@
 
 Phân tích 20 HTML FBref đã lưu và bản JSON FootballTransfers. Chương trình luôn đọc tệp cục bộ, không cần truy cập website.
 
-## Chạy dự án
+## Chạy từng bước trong VS Code
 
-    cd D:\AssignmentPY\PremierLeague2025_2026
-    python -m pip install -r requirements.txt
-    python main.py all
-    python -m pytest -q
+Mở terminal PowerShell. Từ `D:\AssignmentPY`, vào thư mục dự án.
 
-Có thể dùng run.ps1 thay cho lệnh all. Tùy chọn --offline được giữ để tương thích với lệnh cũ; mọi lệnh luôn chạy cục bộ.
+```powershell
+cd .\PremierLeague2025_2026
+```
+
+Nếu thư mục dự án chưa có `.venv`, tạo môi trường và cài thư viện một lần.
+
+```powershell
+py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+Chạy từng dòng theo thứ tự và đợi mỗi bước hoàn tất trước khi chạy bước sau.
+
+```powershell
+.\.venv\Scripts\python.exe 01_thu_thap_du_lieu.py
+.\.venv\Scripts\python.exe 02_thong_ke_histogram.py
+.\.venv\Scripts\python.exe 03_bieu_do_ban_thang.py
+.\.venv\Scripts\python.exe 04_kmeans_elbow_silhouette.py
+.\.venv\Scripts\python.exe 05_bieu_do_pca.py
+.\.venv\Scripts\python.exe 06_ban_do_nhiet_tam_cum.py
+.\.venv\Scripts\python.exe 07_bieu_do_radar.py
+.\.venv\Scripts\python.exe 08_ghep_chuyen_nhuong.py
+.\.venv\Scripts\python.exe 09_bieu_do_phi_chuyen_nhuong.py
+```
+
+| Bước | Công việc và kết quả chính |
+| --- | --- |
+| 01 | Đọc 20 HTML đã lưu trong `data/sources/`. Xuất mỗi đội một CSV trong `data/processed/fbref/cau_thu_theo_doi/`, cùng các bảng tổng hợp và dữ liệu đã làm sạch trong `data/processed/fbref/`. |
+| 02 | Đọc CSV từ bước 01, xuất bảng thống kê và 63 histogram về tuổi, số trận và số trận 90 phút quy đổi. |
+| 03 | Đọc `team_totals.csv` từ bước 02 và vẽ `team_goals.png`. |
+| 04 | Chạy K-means với 5 cụm, lưu bảng và mô hình, rồi vẽ Elbow và Silhouette trong `kmeans_diagnostics.png`. |
+| 05 | Dùng tọa độ đã lưu ở bước 04 để vẽ `pca_clusters.png`. |
+| 06 | Dùng tâm cụm đã lưu ở bước 04 để vẽ `cluster_profiles.png`. |
+| 07 | Vẽ `radar.png` cho hai cầu thủ cùng vị trí được chọn tự động và xuất bảng phân vị. |
+| 08 | Ghép JSON FootballTransfers đã lưu với dữ liệu FBref và xuất `transfers_with_fbref.csv`. |
+| 09 | Đọc kết quả bước 08, đánh giá mô hình hồi cứu và vẽ `valuation_predictions.png`. |
 
 ## Đầu vào và đầu ra
 
-- data/sources/: 20 HTML gốc cùng các thư mục tài nguyên do trình duyệt lưu; giữ nguyên để đối chiếu.
+- data/sources/: 20 tệp HTML gốc dùng để trích xuất và đối chiếu dữ liệu.
 - data/raw/: JSON giao dịch FootballTransfers và metadata nguồn/hash.
-- data/processed/fbref/: result.csv, player_team_stints.csv, table_rows.csv, dữ liệu mô hình và data_quality.json.
+- data/processed/fbref/: mở `tong_hop_bang_thu_thap.csv` trong Excel để xem các loại bảng FBref thu được, số đội có dữ liệu, số dòng trước lọc và chỉ số tiêu biểu. `table_rows.csv` giữ các dòng chi tiết, còn `result.csv` và `player_team_stints.csv` chứa dữ liệu đã làm sạch.
+- data/processed/fbref/cau_thu_theo_doi/: 20 file CSV, mỗi file là danh sách cầu thủ của một đội trước khi lọc tổng số phút. Tiêu đề cột dùng tiếng Việt và các dòng được sắp theo số phút thi đấu giảm dần.
 - outputs/fbref/tables/: bảng thống kê, cụm, radar, chuyển nhượng và đánh giá mô hình.
 - outputs/fbref/figures/: 63 histogram và các hình phân tích.
 - outputs/fbref/models/: mô hình K-means/PCA và mô hình phí hồi cứu.
-- outputs/fbref/reports/: báo cáo HTML/Markdown/PDF và run_manifest.json.
 
-HTML báo cáo tự chứa hình và có phụ lục 63 histogram. PDF trình bày các hình chính. Xem KET_QUA_20_DOI.md để đọc kết quả từng bài và VERIFICATION.md để xem kiểm chứng.
+## Tùy chọn phân tích
 
-## Các lệnh riêng
+Dùng tùy chọn trực tiếp trên file của bước tương ứng để đổi thư mục HTML, số cụm hoặc cặp cầu thủ.
 
-    python main.py prepare
-    python main.py stats
-    python main.py cluster --k 5
-    python main.py radar --p1 "Erling Haaland" --p2 "Igor Thiago"
-    python main.py transfers
-    python main.py valuation
-    python main.py report
+```powershell
+.\.venv\Scripts\python.exe 01_thu_thap_du_lieu.py --html-dir "D:\ThuMucHTML"
+.\.venv\Scripts\python.exe 04_kmeans_elbow_silhouette.py --k 5
+.\.venv\Scripts\python.exe 07_bieu_do_radar.py --p1 "Erling Haaland" --p2 "Igor Thiago"
+```
 
-prepare mặc định đọc data/sources. Đọc nơi khác bằng --html-dir "D:\ThuMucHTML". Phải đủ 20 đội; --allow-partial chỉ dùng kiểm tra tập nhỏ. fetch là tên tương thích của prepare. Tệp ThuThapBongDa.py ở thư mục AssignmentPY gọi cùng bước prepare.
+Bước 01 yêu cầu đủ 20 đội. Tùy chọn `--allow-partial` dùng để kiểm tra tập nhỏ. Sau khi đổi số cụm ở bước 04, chạy lại bước 05 và 06 để cập nhật hình. Radar hỗ trợ `--attributes "Gls_per90,Ast_per90,Min,MP"` và `--all-positions` để so sánh khác vị trí.
 
-Radar hỗ trợ --attributes "Gls_per90,Ast_per90,Min,MP"; thêm --all-positions nếu so sánh khác vị trí.
+## Xem code khi demo
 
-## Tổ chức mã nguồn
+Mỗi file chứa phần xử lý của bước đó. Khi trình bày, mở file theo bảng trên và tìm hàm tương ứng.
 
-- main.py: lệnh điều phối.
-- epl/common.py: đường dẫn, lưu tệp, hash và chuẩn hóa tên.
-- epl/fbref_scraper.py: xác minh HTML, trích bảng, ghép PlayerID và lọc phút.
-- epl/analysis.py: hàm thống kê và hình dùng chung.
-- epl/transfers.py: xử lý phí và lọc giao dịch.
-- epl/fbref_pipeline.py: bốn phần phân tích và tạo báo cáo.
-- epl/report.py, epl/pdf_report.py: định dạng bảng và xuất PDF.
-- tests/: kiểm thử bộ đọc, quy tắc dữ liệu và snapshot thật.
+| Bước | Hàm để trình bày |
+| --- | --- |
+| 01 | `collect_fbref` đọc và xuất dữ liệu, `parse_squad` đọc bảng của từng đội, `make_totals` cộng số liệu và lọc theo số phút. |
+| 02 | `statistics` tính các bảng, `histogram` vẽ phân phối. |
+| 03 | `team_goals` đọc bảng bàn thắng theo đội và vẽ biểu đồ thanh. |
+| 04 | `clustering` chuẩn hóa, huấn luyện K-means, tính PCA và vẽ Elbow cùng Silhouette. |
+| 05 | `pca_clusters` đọc tọa độ PCA và vẽ các điểm theo cụm. |
+| 06 | `cluster_profiles` đọc tâm cụm và vẽ bản đồ nhiệt. |
+| 07 | `radar` chọn cặp cầu thủ, gọi `percentile_scores` và vẽ biểu đồ radar. |
+| 08 | `prepare_confirmed` lọc giao dịch và chuẩn hóa phí, `transfers` ghép hồ sơ với FBref. |
+| 09 | `valuation` chia tập, huấn luyện, kiểm định và vẽ phí thực tế so với phí ước lượng. |
+
+Các bước sau dùng chung đường dẫn, hàm đọc và ghi dữ liệu, kiểm tra mã băm và cấu hình biểu đồ từ bước 01.
 
 ## Phạm vi phân tích
 
 Sau lọc tổng phút >90 có 473 cầu thủ và 486 lượt cầu thủ-đội. Các stint được cộng trước khi lọc; không cộng tỷ lệ giữa các đội. Thống kê theo đội chỉ tính đóng góp của nhóm cầu thủ đủ điều kiện.
 
-Chỉ dùng các chỉ số đã thu được. K-means dùng Age, Min, Gls_per90, Ast_per90; mô hình phí dùng Age, Min, Gls, Ast, MP. Từ điển trong báo cáo được tạo theo các cột thực có dữ liệu trong CSV.
+Chỉ dùng các chỉ số đã thu được. K-means dùng Age, Min, Gls_per90, Ast_per90. Mô hình phí dùng Age, Min, Gls, Ast và MP.
 
 Mô hình phí dùng thành tích và giao dịch cùng mùa nên chỉ phân tích hồi cứu. Muốn dự báo trước giao dịch cần thêm dữ liệu mùa trước và kiểm định theo thời gian.
-
-## Phần đã lược bỏ
-
-Đã bỏ quy trình FPL/Transfermarkt cũ, lệnh --source/--refresh/import-fbref/predict, dữ liệu và kết quả cũ, tài liệu trùng, ảnh kiểm tra tạm. Đã bỏ requests và lxml khỏi danh sách phụ thuộc vì quy trình hiện tại không sử dụng.
-
-Phần chuyển ra khỏi dự án có thể khôi phục tại D:\AssignmentPY\_archive\cleanup_removed_20261106.
-Bản ZIP nguyên trạng trước chỉnh sửa: D:\AssignmentPY\_archive\PremierLeague2025_2026_before_cleanup_20261106.zip.
